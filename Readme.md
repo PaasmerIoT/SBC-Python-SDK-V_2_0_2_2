@@ -1,17 +1,17 @@
-# SBC-Python-SDK-V_2.0.2.2
-**Paasmer IoT SBC-Python-SDK-V_2.0.2.2** for Single Board Computers Running Linux
+# SBC-Python-SDK-V_2_0_2_2
+**Paasmer IoT SBC-Python-SDK-V_2_0_2_2** for Single Board Computers Running Linux
 
 ## Overview
-The **Paasmer SBC-Python-SDK-V_2.0.2.2** for **Single Board Computers (SBC)** like Raspberry-PI, Banana-PI, Orange-PI, Odroidxu4 and BeagleBone is a collection of source files that enables you to connect to the Paasmer IoT Platform. It includes the transport client for **MQTT** with **TLS** support.  It is distributed in source form and intended to be built into customer firmware along with application code, other libraries and RTOS.
+The **Paasmer SBC-Python-SDK-V_2_0_2_2** for **Single Board Computers (SBC)** like Raspberry-PI, Banana-PI, Orange-PI, Odroidxu4 and BeagleBone is a collection of source files that enables you to connect to the Paasmer IoT Platform. It includes the transport client for **MQTT** with **TLS** support.  It is distributed in source form and intended to be built into customer firmware along with application code, other libraries and RTOS.
 
 ## Features
-The **SBC-Python-SDK-V_2.0.2.2** simplifies access to the Pub/Sub functionality of the **Paasmer IoT** broker via **MQTT**.The SDK has been tested to work on the **Raspberry PI 3, Banana-PI, Orange-PI, Odroidxu4 and BeagleBone**.
+The **SBC-Python-SDK-V_2_0_2_2** simplifies access to the Pub/Sub functionality of the **Paasmer IoT** broker via **MQTT**.The SDK has been tested to work on the **Raspberry PI 3, Banana-PI, Orange-PI, Odroidxu4 and BeagleBone**.
 
 ## MQTT Connection
-The **SBC-Python-SDK-V_2.0.2.2** provides functionality to create and maintain a mutually authenticated TLS connection over which it runs **MQTT**. This connection is used for any further publish operations and allow for subscribing to **MQTT** topics which will call a configurable callback function when these topics are received.
+The **SBC-Python-SDK-V_2_0_2_2** provides functionality to create and maintain a mutually authenticated TLS connection over which it runs **MQTT**. This connection is used for any further publish operations and allow for subscribing to **MQTT** topics which will call a configurable callback function when these topics are received.
 
 ## Protocols Supported
-The **SBC-Python-SDK-V_2.0.2.2** is equipped with the Zigbee, WiFi and Bluetooth (BLE) protocol support along with Board GPIO's.
+The **SBC-Python-SDK-V_2_0_2_2** is equipped with the Zigbee, WiFi and Bluetooth (BLE) protocol support along with Board GPIO's.
 
 ## Pre Requisites
 Registration on the [PAASMER portal](http://dashboard.paasmer.co/) is necessary to connect the devices to the **Paasmer IoT Platform** .
@@ -41,8 +41,8 @@ In order to use the Zigbee the following is required.
 * Download the SDK or clone it using the command below.
 
 ```
-$ git clone https://github.com/PaasmerIoT/SBC-Python-SDK-V_2.0.2.2
-$ cd SBC-Python-SDK-V_2.0.2.2
+$ git clone https://github.com/PaasmerIoT/SBC-Python-SDK-V_2_0_2_2.git
+$ cd SBC-Python-SDK-V_2_0_2_2
 ```
 * To install dependencies, follow the commands below
 
@@ -167,4 +167,4 @@ The support forum is hosted on the GitHub, issues can be identified by users and
 
 ## Note
 
-* The Paasmer IoT SBC-Python-SDK-V_2.0.2.2 utilizes the features provided by AWS-IOT-SDK for Python.
+* The Paasmer IoT SBC-Python-SDK-V_2_0_2_2 utilizes the features provided by AWS-IOT-SDK for Python.
