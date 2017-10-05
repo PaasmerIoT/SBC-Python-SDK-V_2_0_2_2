@@ -99,7 +99,6 @@ ser = 0
 wifiDiscover = 1
 
 bluetoothDiscover = 0
-
 ```
 #### Using Web UI
 * Login to http://developers.paasmer.co/, create a device and download the credentials.
