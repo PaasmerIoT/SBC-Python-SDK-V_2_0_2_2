@@ -14,7 +14,7 @@ The **SBC-Python-SDK-V_2_0_2_2** provides functionality to create and maintain a
 The **SBC-Python-SDK-V_2_0_2_2** is equipped with the Zigbee, WiFi and Bluetooth (BLE) protocol support along with Board GPIO's.
 
 ## Pre Requisites
-Registration on the [PAASMER portal](http://dashboard.paasmer.co/) is necessary to connect the devices to the **Paasmer IoT Platform** .
+Registration on the [PAASMER portal](http://developers.paasmer.co/) is necessary to connect the devices to the **Paasmer IoT Platform** .
 
 ##  Optional Requisites
 * WiFi devices - Paasmer IoT is supports Belkin Wemo and Philips Hue bridge.
@@ -102,7 +102,7 @@ bluetoothDiscover = 0
 
 ```
 #### Using Web UI
-* Login to http://dashboard.paasmer.co/, create a device and download the credentials.
+* Login to http://developers.paasmer.co/, create a device and download the credentials.
 * Copy the credential files from downloaded `zip` file and place them in the `<certs>` directory of the SDK.
 * Copy the `config.py` file in the main `<installation dir>`.
 
