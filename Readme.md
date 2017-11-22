@@ -101,7 +101,6 @@ wifiDiscover = 1
 bluetoothDiscover = 0
 ```
 #### Using Web UI
-<<<<<<< HEAD
 * Login to http://developers.paasmer.co/, create a device and fill the feed details.
 * Click on `save` icon to save changes. 
 * After completion, Go to the `SDK` directory and run the command below.
@@ -111,11 +110,6 @@ sudo ./Update.sh
 ```
 * This will ask for the UserName, DeviceName and Password. Give the DeviceName which is created in the Web UI.
 * This will automatically download the necessary credentials and the config file, and place them in the respective directory.
-=======
-* Login to http://developers.paasmer.co/, create a device and download the credentials.
-* Copy the credential files from downloaded `zip` file and place them in the `<certs>` directory of the SDK.
-* Copy the `config.py` file in the main `<installation dir>`.
->>>>>>> origin/master
 
 ### ZigBee Configuration (Optional)
 
