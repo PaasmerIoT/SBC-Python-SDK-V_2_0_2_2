@@ -102,9 +102,15 @@ bluetoothDiscover = 0
 
 ```
 #### Using Web UI
-* Login to http://dashboard.paasmer.co/, create a device and download the credentials.
-* Copy the credential files from downloaded `zip` file and place them in the `<certs>` directory of the SDK.
-* Copy the `config.py` file in the main `<installation dir>`.
+* Login to http://developers.paasmer.co/, create a device and fill the feed details.
+* Click on `save` icon to save changes. 
+* After completion, Go to the `SDK` directory and run the command below.
+
+```
+sudo ./Update.sh
+```
+* This will ask for the UserName, DeviceName and Password. Give the DeviceName which is created in the Web UI.
+* This will automatically download the necessary credentials and the config file, and place them in the respective directory.
 
 ### ZigBee Configuration (Optional)
 
@@ -160,6 +166,11 @@ $ sudo python basicPubSub.py
 ```
 
 * The device would now be connected to the Paasmer IoT Platform and publishing sensor values are specified intervals.
+
+*User can update the feed details for any Device in the WeB UI followed by running the below command`*
+```
+sudo ./Update.sh
+```
 
 ## Support
 
